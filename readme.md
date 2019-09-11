@@ -1,5 +1,5 @@
 #spring-cloud demo
-##使用eureka作为服务注册中心，同时启用一个服务提供者和一个服务消费者进行测试
+##使用eureka作为服务注册中心，同时启用两个服务提供者和一个服务消费者进行测试
 
 ###eureka服务端 通过注解@EnableEurekaServer启用注册中心
 
