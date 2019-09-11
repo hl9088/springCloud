@@ -5,6 +5,13 @@
 
 ###eureka客户端 通过注解@EnableEurekaClient 客户端向注册中心注册服务
 
+
+##module介绍
+###eureka-server eureka注册中心
+###provider、provider2 服务提供者
+###consumer、consumer2 服务消费方，consumer2中ribbon可以针对某个服务设置自定义的负载均衡策略，consumer中配置的是全局负载均衡策略
+
+
 ##主要配置项
 ### #应用名称 （服务消费端可以通过此应用名进行远程调用服务提供方，注代码中服务名要大写）
 ###spring.application.name=eureka
