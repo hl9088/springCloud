@@ -17,8 +17,8 @@ public class HelloController {
     @Autowired
     private RestTemplate restTemplate;
 
-    // 此处provider需要大写 即使配置文件中配置的是小写
-    private final String providerUrl = "http://PROVIDER/hi";
+    // 服务名称大小写均可以
+    private final String providerUrl = "http://provider/hi";
 
     @Autowired
     private LoadBalancerClient loadBalancerClient;
