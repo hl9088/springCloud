@@ -13,5 +13,6 @@
         <module>provider</module>
         <module>provider2</module>
         <module>feign</module>
+        <module>gateway</module>
     </modules>
 </project>
